@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1181161E1FA6F91100C7DA1E /* LeoRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181161D1FA6F91100C7DA1E /* LeoRegex.swift */; };
+		1181AA281FA2FF1A00833C66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181AA271FA2FF1A00833C66 /* AppDelegate.swift */; };
+		1181AA2A1FA2FF1A00833C66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181AA291FA2FF1A00833C66 /* ViewController.swift */; };
+		1181AA2D1FA2FF1A00833C66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1181AA2B1FA2FF1A00833C66 /* Main.storyboard */; };
+		1181AA2F1FA2FF1A00833C66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1181AA2E1FA2FF1A00833C66 /* Assets.xcassets */; };
+		1181AA321FA2FF1A00833C66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1181AA301FA2FF1A00833C66 /* LaunchScreen.storyboard */; };
+		1181AA3A1FA302B000833C66 /* LeoSwiftAddressBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181AA391FA302B000833C66 /* LeoSwiftAddressBook.swift */; };
+		1181AA3C1FA31B7600833C66 /* LeoSwiftContactFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1181AA3B1FA31B7600833C66 /* LeoSwiftContactFramework.swift */; };
+		35B999DDE1D24117F9F6259A /* Pods_LeoContractBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D111B9F12BEFE86169A358 /* Pods_LeoContractBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1181161D1FA6F91100C7DA1E /* LeoRegex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeoRegex.swift; sourceTree = "<group>"; };
+		1181AA241FA2FF1A00833C66 /* LeoContractBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeoContractBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1181AA271FA2FF1A00833C66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1181AA291FA2FF1A00833C66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1181AA2C1FA2FF1A00833C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1181AA2E1FA2FF1A00833C66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1181AA311FA2FF1A00833C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1181AA331FA2FF1A00833C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1181AA391FA302B000833C66 /* LeoSwiftAddressBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeoSwiftAddressBook.swift; sourceTree = "<group>"; };
+		1181AA3B1FA31B7600833C66 /* LeoSwiftContactFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeoSwiftContactFramework.swift; sourceTree = "<group>"; };
+		748A2F7C1F27C3A61D9F7040 /* Pods-LeoContractBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeoContractBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeoContractBook/Pods-LeoContractBook.release.xcconfig"; sourceTree = "<group>"; };
+		97D111B9F12BEFE86169A358 /* Pods_LeoContractBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeoContractBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7A38823F6FAB33A8B8B802 /* Pods-LeoContractBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeoContractBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeoContractBook/Pods-LeoContractBook.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1181AA211FA2FF1A00833C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B999DDE1D24117F9F6259A /* Pods_LeoContractBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1181AA1B1FA2FF1A00833C66 = {
+			isa = PBXGroup;
+			children = (
+				1181AA261FA2FF1A00833C66 /* LeoContractBook */,
+				1181AA251FA2FF1A00833C66 /* Products */,
+				980DACE0FA32D26B51C89E8B /* Pods */,
+				FB00BA27700B07A3CD0D5414 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1181AA251FA2FF1A00833C66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1181AA241FA2FF1A00833C66 /* LeoContractBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1181AA261FA2FF1A00833C66 /* LeoContractBook */ = {
+			isa = PBXGroup;
+			children = (
+				1181AA271FA2FF1A00833C66 /* AppDelegate.swift */,
+				1181AA291FA2FF1A00833C66 /* ViewController.swift */,
+				1181AA391FA302B000833C66 /* LeoSwiftAddressBook.swift */,
+				1181AA3B1FA31B7600833C66 /* LeoSwiftContactFramework.swift */,
+				1181161D1FA6F91100C7DA1E /* LeoRegex.swift */,
+				1181AA2B1FA2FF1A00833C66 /* Main.storyboard */,
+				1181AA2E1FA2FF1A00833C66 /* Assets.xcassets */,
+				1181AA301FA2FF1A00833C66 /* LaunchScreen.storyboard */,
+				1181AA331FA2FF1A00833C66 /* Info.plist */,
+			);
+			path = LeoContractBook;
+			sourceTree = "<group>";
+		};
+		980DACE0FA32D26B51C89E8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA7A38823F6FAB33A8B8B802 /* Pods-LeoContractBook.debug.xcconfig */,
+				748A2F7C1F27C3A61D9F7040 /* Pods-LeoContractBook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB00BA27700B07A3CD0D5414 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97D111B9F12BEFE86169A358 /* Pods_LeoContractBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1181AA231FA2FF1A00833C66 /* LeoContractBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1181AA361FA2FF1A00833C66 /* Build configuration list for PBXNativeTarget "LeoContractBook" */;
+			buildPhases = (
+				1902B4950FAFB29C4AF3C400 /* [CP] Check Pods Manifest.lock */,
+				1181AA201FA2FF1A00833C66 /* Sources */,
+				1181AA211FA2FF1A00833C66 /* Frameworks */,
+				1181AA221FA2FF1A00833C66 /* Resources */,
+				6EDBF8AA703C60C640F1A854 /* [CP] Embed Pods Frameworks */,
+				5920280ABA98CA01DCB7065D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeoContractBook;
+			productName = LeoContractBook;
+			productReference = 1181AA241FA2FF1A00833C66 /* LeoContractBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1181AA1C1FA2FF1A00833C66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "vijay vir";
+				TargetAttributes = {
+					1181AA231FA2FF1A00833C66 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1181AA1F1FA2FF1A00833C66 /* Build configuration list for PBXProject "LeoContractBook" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1181AA1B1FA2FF1A00833C66;
+			productRefGroup = 1181AA251FA2FF1A00833C66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1181AA231FA2FF1A00833C66 /* LeoContractBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1181AA221FA2FF1A00833C66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1181AA321FA2FF1A00833C66 /* LaunchScreen.storyboard in Resources */,
+				1181AA2F1FA2FF1A00833C66 /* Assets.xcassets in Resources */,
+				1181AA2D1FA2FF1A00833C66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1902B4950FAFB29C4AF3C400 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5920280ABA98CA01DCB7065D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeoContractBook/Pods-LeoContractBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EDBF8AA703C60C640F1A854 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeoContractBook/Pods-LeoContractBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1181AA201FA2FF1A00833C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1181AA3C1FA31B7600833C66 /* LeoSwiftContactFramework.swift in Sources */,
+				1181161E1FA6F91100C7DA1E /* LeoRegex.swift in Sources */,
+				1181AA2A1FA2FF1A00833C66 /* ViewController.swift in Sources */,
+				1181AA281FA2FF1A00833C66 /* AppDelegate.swift in Sources */,
+				1181AA3A1FA302B000833C66 /* LeoSwiftAddressBook.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1181AA2B1FA2FF1A00833C66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1181AA2C1FA2FF1A00833C66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1181AA301FA2FF1A00833C66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1181AA311FA2FF1A00833C66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1181AA341FA2FF1A00833C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1181AA351FA2FF1A00833C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1181AA371FA2FF1A00833C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA7A38823F6FAB33A8B8B802 /* Pods-LeoContractBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9782H4PQ9;
+				INFOPLIST_FILE = LeoContractBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.siv.YachtBrain.LeoContractBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1181AA381FA2FF1A00833C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 748A2F7C1F27C3A61D9F7040 /* Pods-LeoContractBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9782H4PQ9;
+				INFOPLIST_FILE = LeoContractBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.siv.YachtBrain.LeoContractBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1181AA1F1FA2FF1A00833C66 /* Build configuration list for PBXProject "LeoContractBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1181AA341FA2FF1A00833C66 /* Debug */,
+				1181AA351FA2FF1A00833C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1181AA361FA2FF1A00833C66 /* Build configuration list for PBXNativeTarget "LeoContractBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1181AA371FA2FF1A00833C66 /* Debug */,
+				1181AA381FA2FF1A00833C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1181AA1C1FA2FF1A00833C66 /* Project object */;
+}

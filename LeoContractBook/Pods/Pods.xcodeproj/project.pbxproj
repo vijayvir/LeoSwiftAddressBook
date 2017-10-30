@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D49606182124B4092ED59A52152EE7 /* SwiftAddressBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EC90E17627C50B69DB371F04A2253D /* SwiftAddressBook-dummy.m */; };
+		0479ABF41C8DEB162C0F161717B59043 /* SwiftAddressBookHelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = D850DAAC9EF7F4A1482DAFDF12817D56 /* SwiftAddressBookHelperMethods.swift */; };
+		28B96E206C99E4518499CF17B1CDFF18 /* Pods-LeoContractBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E66F8056326A6032FF1B2B8B602F1B1 /* Pods-LeoContractBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32552FA8A7439A892F0A845B2E443890 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B49BA9576F89863289A1011FF5E137 /* Foundation.framework */; };
+		50BD1A883147DF97F15C2890C1E9635C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B49BA9576F89863289A1011FF5E137 /* Foundation.framework */; };
+		70EBFDD4C87F538224BAECF0372842FF /* SwiftAddressBookRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD045E2693158EA71309BE8F4C45D7F1 /* SwiftAddressBookRecord.swift */; };
+		79C00AFAF0FA2394B2BE58B548FDF839 /* SwiftAddressBookSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3A5C169B4DF468CE5B1764C736A10B /* SwiftAddressBookSource.swift */; };
+		7B55638474BA5BF3D8C5C9B319A75819 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47B63DBB8554185BC85DCC0083F51A3 /* AddressBookUI.framework */; };
+		93E86E9861C8F0B7AA786836FE935C8D /* SwiftAddressBookGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18ED680A2198F01520F63100DAC2EE0 /* SwiftAddressBookGroup.swift */; };
+		A6056B3344C2AA09952C7C4BCC193820 /* SwiftAddressBookPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772D991EFCF4925044D0634670502527 /* SwiftAddressBookPerson.swift */; };
+		A94FC359BB7B51DD8100C65A324779EC /* SwiftAddressBookWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1050F3F14A20DAC33B1BAFF6C19BE976 /* SwiftAddressBookWrapper.swift */; };
+		AB830FDCD500D2A26A8AA688DE9893D6 /* SwiftAddressBookObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F68A46C115F492373149CF6331140EB /* SwiftAddressBookObserver.m */; };
+		B02862FE8F4904842FCCB8D5B6BC33BD /* SwiftAddressBookDataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E3550164AEECA34103342A30E71C61 /* SwiftAddressBookDataStructures.swift */; };
+		CE49143670A58901D311BB6EED1EB7F0 /* SwiftAddressBookObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AC0D91BE50707E9266315886A08E412 /* SwiftAddressBookObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE675C88B745A8782D83978D5DB1D61C /* Pods-LeoContractBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AED7B882FD4FB104DB63E14B1C98C0 /* Pods-LeoContractBook-dummy.m */; };
+		E87724F913AD60100B52CE24858DCB1D /* SwiftAddressBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 028B5C84A03B5AD0471B141DEF5931E7 /* SwiftAddressBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAC053693E5123E877037D4C46FDC151 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6FA84E7A10E9BC5A7C8D7EE85F1569D /* AddressBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7772C3910DC12C7B8886146F15BECC08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F519C09305897D1B9FEEF109EC4C890;
+			remoteInfo = SwiftAddressBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		023E3202BBD887451967AB92ECBEAEB6 /* Pods-LeoContractBook-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeoContractBook-acknowledgements.plist"; sourceTree = "<group>"; };
+		028B5C84A03B5AD0471B141DEF5931E7 /* SwiftAddressBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAddressBook-umbrella.h"; sourceTree = "<group>"; };
+		0C9D493948EB632EF5CDBE00CE734AC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E66F8056326A6032FF1B2B8B602F1B1 /* Pods-LeoContractBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LeoContractBook-umbrella.h"; sourceTree = "<group>"; };
+		1050F3F14A20DAC33B1BAFF6C19BE976 /* SwiftAddressBookWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookWrapper.swift; path = Pod/Classes/SwiftAddressBookWrapper.swift; sourceTree = "<group>"; };
+		10E3550164AEECA34103342A30E71C61 /* SwiftAddressBookDataStructures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookDataStructures.swift; path = Pod/Classes/SwiftAddressBookDataStructures.swift; sourceTree = "<group>"; };
+		19600AC72F99DB6892E6D71C49DE5BEC /* SwiftAddressBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftAddressBook.framework; path = SwiftAddressBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B61E61ED5DA91128AAA49D79F4E2D1 /* Pods-LeoContractBook-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LeoContractBook-frameworks.sh"; sourceTree = "<group>"; };
+		3F68A46C115F492373149CF6331140EB /* SwiftAddressBookObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwiftAddressBookObserver.m; path = Pod/Classes/SwiftAddressBookObserver.m; sourceTree = "<group>"; };
+		4AC0D91BE50707E9266315886A08E412 /* SwiftAddressBookObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftAddressBookObserver.h; path = Pod/Classes/SwiftAddressBookObserver.h; sourceTree = "<group>"; };
+		56BB3AE8D78DD112A9B5529DEAA97D32 /* Pods_LeoContractBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LeoContractBook.framework; path = "Pods-LeoContractBook.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65CD23070117B2B50EC755728DDCF067 /* SwiftAddressBook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftAddressBook-prefix.pch"; sourceTree = "<group>"; };
+		7518B533216D6BC6CE09403C075F5664 /* Pods-LeoContractBook-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LeoContractBook-acknowledgements.markdown"; sourceTree = "<group>"; };
+		772D991EFCF4925044D0634670502527 /* SwiftAddressBookPerson.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookPerson.swift; path = Pod/Classes/SwiftAddressBookPerson.swift; sourceTree = "<group>"; };
+		790774C47DDB0CF76A5BF2CB3C3A66C5 /* Pods-LeoContractBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeoContractBook.debug.xcconfig"; sourceTree = "<group>"; };
+		86EC90E17627C50B69DB371F04A2253D /* SwiftAddressBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftAddressBook-dummy.m"; sourceTree = "<group>"; };
+		92F93D6992DBA4BF25B5F4B2EA056512 /* SwiftAddressBook.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftAddressBook.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96AED7B882FD4FB104DB63E14B1C98C0 /* Pods-LeoContractBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LeoContractBook-dummy.m"; sourceTree = "<group>"; };
+		9D56980BEB709DED9B8B724AE91D2FF6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8FCF3822EAFB55FE77CE55CF06C4BC1 /* Pods-LeoContractBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeoContractBook.release.xcconfig"; sourceTree = "<group>"; };
+		C18ED680A2198F01520F63100DAC2EE0 /* SwiftAddressBookGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookGroup.swift; path = Pod/Classes/SwiftAddressBookGroup.swift; sourceTree = "<group>"; };
+		C9908567A504F638610AEA4D72516B4C /* Pods-LeoContractBook-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LeoContractBook-resources.sh"; sourceTree = "<group>"; };
+		D6FA84E7A10E9BC5A7C8D7EE85F1569D /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
+		D709B8C09E1396390C76B375BF137FD9 /* SwiftAddressBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftAddressBook.modulemap; sourceTree = "<group>"; };
+		D850DAAC9EF7F4A1482DAFDF12817D56 /* SwiftAddressBookHelperMethods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookHelperMethods.swift; path = Pod/Classes/SwiftAddressBookHelperMethods.swift; sourceTree = "<group>"; };
+		DC724714C408BC9170F303712577FF9D /* Pods-LeoContractBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LeoContractBook.modulemap"; sourceTree = "<group>"; };
+		EE3A5C169B4DF468CE5B1764C736A10B /* SwiftAddressBookSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookSource.swift; path = Pod/Classes/SwiftAddressBookSource.swift; sourceTree = "<group>"; };
+		F1B49BA9576F89863289A1011FF5E137 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F47B63DBB8554185BC85DCC0083F51A3 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AddressBookUI.framework; sourceTree = DEVELOPER_DIR; };
+		FD045E2693158EA71309BE8F4C45D7F1 /* SwiftAddressBookRecord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftAddressBookRecord.swift; path = Pod/Classes/SwiftAddressBookRecord.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F3E424CAC726760AF370A3D3A9469B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC053693E5123E877037D4C46FDC151 /* AddressBook.framework in Frameworks */,
+				7B55638474BA5BF3D8C5C9B319A75819 /* AddressBookUI.framework in Frameworks */,
+				32552FA8A7439A892F0A845B2E443890 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		872BA7E3FA148F7E71B6B4A985A25A1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50BD1A883147DF97F15C2890C1E9635C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D6FDDABB547F25CEB3064A8A110F90F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26A465E660A424E072C284C6806ED9C4 /* Pods-LeoContractBook */ = {
+			isa = PBXGroup;
+			children = (
+				9D56980BEB709DED9B8B724AE91D2FF6 /* Info.plist */,
+				DC724714C408BC9170F303712577FF9D /* Pods-LeoContractBook.modulemap */,
+				7518B533216D6BC6CE09403C075F5664 /* Pods-LeoContractBook-acknowledgements.markdown */,
+				023E3202BBD887451967AB92ECBEAEB6 /* Pods-LeoContractBook-acknowledgements.plist */,
+				96AED7B882FD4FB104DB63E14B1C98C0 /* Pods-LeoContractBook-dummy.m */,
+				38B61E61ED5DA91128AAA49D79F4E2D1 /* Pods-LeoContractBook-frameworks.sh */,
+				C9908567A504F638610AEA4D72516B4C /* Pods-LeoContractBook-resources.sh */,
+				0E66F8056326A6032FF1B2B8B602F1B1 /* Pods-LeoContractBook-umbrella.h */,
+				790774C47DDB0CF76A5BF2CB3C3A66C5 /* Pods-LeoContractBook.debug.xcconfig */,
+				B8FCF3822EAFB55FE77CE55CF06C4BC1 /* Pods-LeoContractBook.release.xcconfig */,
+			);
+			name = "Pods-LeoContractBook";
+			path = "Target Support Files/Pods-LeoContractBook";
+			sourceTree = "<group>";
+		};
+		79D204958DE55F440B6487B18B762D63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56BB3AE8D78DD112A9B5529DEAA97D32 /* Pods_LeoContractBook.framework */,
+				19600AC72F99DB6892E6D71C49DE5BEC /* SwiftAddressBook.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				D99A7AD59F1F889C290CEF38F3BD08F0 /* Pods */,
+				79D204958DE55F440B6487B18B762D63 /* Products */,
+				C5728DB7F32296E32F5DD8A2BEFDDC59 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D6FDDABB547F25CEB3064A8A110F90F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6FA84E7A10E9BC5A7C8D7EE85F1569D /* AddressBook.framework */,
+				F47B63DBB8554185BC85DCC0083F51A3 /* AddressBookUI.framework */,
+				F1B49BA9576F89863289A1011FF5E137 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		938398BAD84BD9BA23D44EF7D5A2E29B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C9D493948EB632EF5CDBE00CE734AC2 /* Info.plist */,
+				D709B8C09E1396390C76B375BF137FD9 /* SwiftAddressBook.modulemap */,
+				92F93D6992DBA4BF25B5F4B2EA056512 /* SwiftAddressBook.xcconfig */,
+				86EC90E17627C50B69DB371F04A2253D /* SwiftAddressBook-dummy.m */,
+				65CD23070117B2B50EC755728DDCF067 /* SwiftAddressBook-prefix.pch */,
+				028B5C84A03B5AD0471B141DEF5931E7 /* SwiftAddressBook-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftAddressBook";
+			sourceTree = "<group>";
+		};
+		99D64B398423812CFF8E782574F409F3 /* SwiftAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				10E3550164AEECA34103342A30E71C61 /* SwiftAddressBookDataStructures.swift */,
+				C18ED680A2198F01520F63100DAC2EE0 /* SwiftAddressBookGroup.swift */,
+				D850DAAC9EF7F4A1482DAFDF12817D56 /* SwiftAddressBookHelperMethods.swift */,
+				4AC0D91BE50707E9266315886A08E412 /* SwiftAddressBookObserver.h */,
+				3F68A46C115F492373149CF6331140EB /* SwiftAddressBookObserver.m */,
+				772D991EFCF4925044D0634670502527 /* SwiftAddressBookPerson.swift */,
+				FD045E2693158EA71309BE8F4C45D7F1 /* SwiftAddressBookRecord.swift */,
+				EE3A5C169B4DF468CE5B1764C736A10B /* SwiftAddressBookSource.swift */,
+				1050F3F14A20DAC33B1BAFF6C19BE976 /* SwiftAddressBookWrapper.swift */,
+				938398BAD84BD9BA23D44EF7D5A2E29B /* Support Files */,
+			);
+			name = SwiftAddressBook;
+			path = SwiftAddressBook;
+			sourceTree = "<group>";
+		};
+		C5728DB7F32296E32F5DD8A2BEFDDC59 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26A465E660A424E072C284C6806ED9C4 /* Pods-LeoContractBook */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D99A7AD59F1F889C290CEF38F3BD08F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99D64B398423812CFF8E782574F409F3 /* SwiftAddressBook */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		29C77720A9C75644E9C6E965ACEAB13A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87724F913AD60100B52CE24858DCB1D /* SwiftAddressBook-umbrella.h in Headers */,
+				CE49143670A58901D311BB6EED1EB7F0 /* SwiftAddressBookObserver.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D2EFB21F10D4DFB8F5D4B6F14650A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B96E206C99E4518499CF17B1CDFF18 /* Pods-LeoContractBook-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F519C09305897D1B9FEEF109EC4C890 /* SwiftAddressBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290D7E760C432385D0F5DA5F638AF3A7 /* Build configuration list for PBXNativeTarget "SwiftAddressBook" */;
+			buildPhases = (
+				D025339821CBC3DCBA0B2FEA4805ABD0 /* Sources */,
+				1F3E424CAC726760AF370A3D3A9469B7 /* Frameworks */,
+				29C77720A9C75644E9C6E965ACEAB13A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftAddressBook;
+			productName = SwiftAddressBook;
+			productReference = 19600AC72F99DB6892E6D71C49DE5BEC /* SwiftAddressBook.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		27552150A69921EE03F413D73B6EEB80 /* Pods-LeoContractBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F9F0E77A5E095439D464C9C2FAF0FFF /* Build configuration list for PBXNativeTarget "Pods-LeoContractBook" */;
+			buildPhases = (
+				846398BDBC572E5BB93AA92702B1171F /* Sources */,
+				872BA7E3FA148F7E71B6B4A985A25A1B /* Frameworks */,
+				F7D2EFB21F10D4DFB8F5D4B6F14650A4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D2737B79414D548C4CEC327AEE76742 /* PBXTargetDependency */,
+			);
+			name = "Pods-LeoContractBook";
+			productName = "Pods-LeoContractBook";
+			productReference = 56BB3AE8D78DD112A9B5529DEAA97D32 /* Pods_LeoContractBook.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 79D204958DE55F440B6487B18B762D63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27552150A69921EE03F413D73B6EEB80 /* Pods-LeoContractBook */,
+				1F519C09305897D1B9FEEF109EC4C890 /* SwiftAddressBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846398BDBC572E5BB93AA92702B1171F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE675C88B745A8782D83978D5DB1D61C /* Pods-LeoContractBook-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D025339821CBC3DCBA0B2FEA4805ABD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D49606182124B4092ED59A52152EE7 /* SwiftAddressBook-dummy.m in Sources */,
+				B02862FE8F4904842FCCB8D5B6BC33BD /* SwiftAddressBookDataStructures.swift in Sources */,
+				93E86E9861C8F0B7AA786836FE935C8D /* SwiftAddressBookGroup.swift in Sources */,
+				0479ABF41C8DEB162C0F161717B59043 /* SwiftAddressBookHelperMethods.swift in Sources */,
+				AB830FDCD500D2A26A8AA688DE9893D6 /* SwiftAddressBookObserver.m in Sources */,
+				A6056B3344C2AA09952C7C4BCC193820 /* SwiftAddressBookPerson.swift in Sources */,
+				70EBFDD4C87F538224BAECF0372842FF /* SwiftAddressBookRecord.swift in Sources */,
+				79C00AFAF0FA2394B2BE58B548FDF839 /* SwiftAddressBookSource.swift in Sources */,
+				A94FC359BB7B51DD8100C65A324779EC /* SwiftAddressBookWrapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D2737B79414D548C4CEC327AEE76742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftAddressBook;
+			target = 1F519C09305897D1B9FEEF109EC4C890 /* SwiftAddressBook */;
+			targetProxy = 7772C3910DC12C7B8886146F15BECC08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CE949320C30E3B06D444A7CEFB8A261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92F93D6992DBA4BF25B5F4B2EA056512 /* SwiftAddressBook.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftAddressBook/SwiftAddressBook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftAddressBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftAddressBook/SwiftAddressBook.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftAddressBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42CA64CC70887089D64E2788AF9154F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92F93D6992DBA4BF25B5F4B2EA056512 /* SwiftAddressBook.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftAddressBook/SwiftAddressBook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftAddressBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftAddressBook/SwiftAddressBook.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftAddressBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66B8180F4B5DDA6DB5FFD0B12DCDEB69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8FCF3822EAFB55FE77CE55CF06C4BC1 /* Pods-LeoContractBook.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LeoContractBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LeoContractBook/Pods-LeoContractBook.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LeoContractBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		67F46A1FBCF0030ED3EB74736F19AED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 790774C47DDB0CF76A5BF2CB3C3A66C5 /* Pods-LeoContractBook.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LeoContractBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LeoContractBook/Pods-LeoContractBook.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LeoContractBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D144F724433A09597E3476A57631255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		290D7E760C432385D0F5DA5F638AF3A7 /* Build configuration list for PBXNativeTarget "SwiftAddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE949320C30E3B06D444A7CEFB8A261 /* Debug */,
+				42CA64CC70887089D64E2788AF9154F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D144F724433A09597E3476A57631255 /* Debug */,
+				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F9F0E77A5E095439D464C9C2FAF0FFF /* Build configuration list for PBXNativeTarget "Pods-LeoContractBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F46A1FBCF0030ED3EB74736F19AED8 /* Debug */,
+				66B8180F4B5DDA6DB5FFD0B12DCDEB69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
