@@ -10,7 +10,7 @@
 import Foundation
 import SwiftAddressBook
 
-// Add this line to project pList to access contact with user  information.
+// Add this line to project pList to access contact with user  permisssions.
 /*
 <key>NSContactsUsageDescription</key>
 <string>This app requires contacts access to function properly.</string>
@@ -46,6 +46,9 @@ func leoSwiftAddressBookAllPeople(searchText : String ) ->  [[String: [SwiftAddr
 	let  filterArrayPeople =  people.filter { (person) -> Bool in
 
 		if  person.firstName?.lowercased().range(of:searchText) != nil  || person.lastName?.lowercased().range(of:searchText) != nil {
+
+			// TODO : Phone number
+
 			return true
 		}
 		return false
@@ -61,11 +64,19 @@ func leoSwiftAddressBookAllPeople(searchText : String ) ->  [[String: [SwiftAddr
 			}
 
 			if charater == "#" {
-				if let firstName = person.firstName {
-					if !("\(Array(firstName)[0])" =^ LeoRegex.LeoRegexType.alphabets.pattern) {
-						return true
+
+				if (person.firstName != nil) {
+					if  person.firstName!.count > 0 {
+						if let firstName = person.firstName {
+							if !("\(Array(firstName)[0])" =^ LeoRegex.LeoRegexType.alphabets.pattern) {
+								return true
+							}
+						}
 					}
-				} }
+				}
+
+
+			} 
 
 			return false
 		}
@@ -108,11 +119,19 @@ func leoSwiftAddressBookAllPeopleWithIndexes( ) ->  [[String: [SwiftAddressBookP
 				}
 
 				if charater == "#" {
-					if let firstName = person.firstName {
-						if !("\(Array(firstName)[0])" =^ LeoRegex.LeoRegexType.alphabets.pattern) {
-							return true
+
+					if (person.firstName != nil) {
+						if  person.firstName!.count > 0 {
+							if let firstName = person.firstName {
+								if !("\(Array(firstName)[0])" =^ LeoRegex.LeoRegexType.alphabets.pattern) {
+									return true
+								}
+							}
 						}
-					} }
+					}
+
+
+					 }
 
 				return false
 			}

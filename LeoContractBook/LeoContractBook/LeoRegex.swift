@@ -18,9 +18,7 @@ precedencegroup ComparisonPrecedence {
 infix operator =^ : ComparisonPrecedence
 
 struct LeoRegex {
-
 	enum LeoRegexType {
-
     case email
     case userName
     case password
@@ -30,7 +28,6 @@ struct LeoRegex {
 		case phoneNumberUSA
 		case other
 		case alphabets
-
 
 		var pattern : String {
 			switch self {

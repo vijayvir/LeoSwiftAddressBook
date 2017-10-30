@@ -19,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		110BC0661FA73FF100CFF829 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1181161D1FA6F91100C7DA1E /* LeoRegex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeoRegex.swift; sourceTree = "<group>"; };
 		1181AA241FA2FF1A00833C66 /* LeoContractBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeoContractBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1181AA271FA2FF1A00833C66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +73,7 @@
 				1181AA391FA302B000833C66 /* LeoSwiftAddressBook.swift */,
 				1181AA3B1FA31B7600833C66 /* LeoSwiftContactFramework.swift */,
 				1181161D1FA6F91100C7DA1E /* LeoRegex.swift */,
+				110BC0661FA73FF100CFF829 /* README.md */,
 				1181AA2B1FA2FF1A00833C66 /* Main.storyboard */,
 				1181AA2E1FA2FF1A00833C66 /* Assets.xcassets */,
 				1181AA301FA2FF1A00833C66 /* LaunchScreen.storyboard */,
